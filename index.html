@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subhan Butt — Creative Director</title>
+  <meta name="description" content="Subhan Butt, Creative Director based in Lahore, Pakistan. A scroll-driven 3D journey portfolio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron:wght@600;800&family=Jost:wght@200;300;400;500&family=Silkscreen:wght@700&family=Rubik+Mono+One&display=swap" rel="stylesheet" />
+  <script type="module" crossorigin src="./assets/index-D0VGrUiG.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-s8i1qKBs.css">
+</head>
+<body class="locked">
+  <div id="stage"></div>
+  <div id="scroll-space" aria-hidden="true"></div>
+  <div id="bars" aria-hidden="true"><i class="top"></i><i class="bot"></i></div>
+  <div id="flash" aria-hidden="true"></div>
+
+  <header class="chrome">
+    <button id="menu-btn" class="icon-btn" aria-label="Menu"><span class="burger"><i></i><i></i><i></i></span><small>menu</small></button>
+    <button id="sound-btn" class="icon-btn" aria-label="Toggle sound"><span class="eq"><i></i><i></i><i></i></span><small>sound</small></button>
+  </header>
+  <nav id="menu" aria-label="Sections"><p class="menu-cta">Let’s work together</p><ul id="menu-list"></ul><div class="socials"></div><button class="menu-2d" data-go2d>Switch to 2D version</button></nav>
+
+  <main class="overlays">
+    <section id="hero">
+      <h1 id="hero-name"></h1>
+      <p id="hero-title"></p>
+    </section>
+    <div id="scroll-hint">SCR<span class="mouse"><i></i></span>LL</div>
+
+    <div id="words" aria-hidden="true"></div>
+
+    <section id="about" class="glass">
+      <h2 id="about-heading" class="pixel"></h2>
+      <div id="about-text"></div>
+    </section>
+
+    <section id="skills"><ul id="skills-list"></ul></section>
+
+    <section id="card-info" class="card-info"></section>
+
+    <section id="contact" class="glass small">
+      <p class="eyebrow">Let’s work together</p>
+      <div class="socials"></div>
+      <button id="copy-email" class="btn" hidden>Copy email</button>
+    </section>
+
+    <div id="chapter"><span>02</span> The Skill Zone</div>
+
+    <section id="thanks"><p class="t1"></p><p class="t2"></p><div class="socials"></div></section>
+  </main>
+
+  <div id="skill-modal" role="dialog" aria-modal="true" aria-label="Skill">
+    <div class="sheet">
+      <button class="close" aria-label="Close">✕</button>
+      <video playsinline controls loop></video>
+      <div class="meta"><p class="num"></p><h3></h3><p class="client"></p></div>
+    </div>
+  </div>
+
+  <button id="cta" aria-label="Contact Subhan">Let’s work together</button>
+  <div id="flat" hidden aria-label="2D portfolio"></div>
+
+  <div id="demo-badge">Demo mode — sample data</div>
+
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-scene">
+        <svg class="skyline" viewBox="0 0 600 160" aria-hidden="true">
+          <defs><linearGradient id="sk" x1="0" x2="1"><stop offset="0" stop-color="#e3e2e5"/><stop offset=".5" stop-color="#cfced3"/><stop offset="1" stop-color="#e3e2e5"/></linearGradient></defs>
+          <path fill="url(#sk)" d="M0 160V96h26V74h18v22h14V58h22v38h12V84h20V62h16v34h18V50h26v46h16V70h14V40h8v-8h6v8h8v56h14V78h22v18h16V56h24v40h14V66h18v30h20V80h16v16h14V48h22v48h18V72h16v24h20V60h20v36h18V84h22v12h18V70h18v26h16v64z"/>
+        </svg>
+        <svg class="rider" viewBox="0 0 120 90" aria-hidden="true">
+          <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="28" cy="72" r="12" stroke="#2c2a30" stroke-width="6"/><circle cx="92" cy="72" r="12" stroke="#2c2a30" stroke-width="6"/>
+            <path d="M18 62c6-16 30-20 44-14h14l10-20" stroke="#e6c66c" stroke-width="12"/>
+            <path d="M84 28l10-2" stroke="#9a9a9a" stroke-width="4"/>
+            <path d="M52 44l8-20" stroke="#2e2e34" stroke-width="10"/><path d="M60 26l18 6" stroke="#2e2e34" stroke-width="7"/>
+            <path d="M52 46l18 4 4 14" stroke="#1c1f2a" stroke-width="8"/>
+          </g>
+          <circle cx="62" cy="14" r="8" fill="#d2a07f"/>
+        </svg>
+        <div id="loader-count">000</div>
+      </div>
+      <div class="start-wrap">
+        <p class="loader-id"></p>
+        <svg class="landmarks" viewBox="0 0 220 60" aria-hidden="true">
+          <g fill="none" stroke="#6d5a68" stroke-width="1.4">
+            <path d="M20 58L30 6l10 52M24 40h12M27 22h6M22 58c3-6 13-6 16 0"/>
+            <circle cx="80" cy="30" r="20"/><circle cx="80" cy="30" r="3"/><path d="M80 10v40M60 30h40M66 16l28 28M94 16L66 44M70 58l10-28 10 28"/>
+            <g transform="translate(150 30)"><circle r="4"/><circle cx="-14" cy="-14" r="4"/><circle cx="14" cy="-14" r="4"/><circle cx="-14" cy="14" r="4"/><circle cx="14" cy="14" r="4"/><circle cy="-24" r="4"/><path d="M-11-11l8 8M11-11l-8 8M-11 11l8-8M11 11l-8-8M0-20v16M-14 18v10M14 18v10"/></g>
+            <path d="M196 58v-26M190 36h12M196 30a4 4 0 1 1 0-8a4 4 0 1 1 0 8M192 58l4-12 4 12"/>
+          </g>
+        </svg>
+        <div class="choice">
+          <button id="start2d" class="choice-card" data-go2d aria-label="Open the portfolio in 2D">
+            <video src="media/btn-2d.mp4" muted autoplay loop playsinline aria-hidden="true"></video>
+            <span class="cc-label">Portfolio in 2D</span><span class="cc-sub">Quick view · all projects</span>
+          </button>
+          <button id="start" class="choice-card" disabled aria-label="Open the portfolio in 3D">
+            <video src="media/btn-3d.mp4" muted autoplay loop playsinline aria-hidden="true"></video>
+            <span class="cc-label">Portfolio in 3D</span><span class="cc-sub" id="start-sub">Loading…</span>
+          </button>
+        </div>
+        <p class="note">3D: turn your sound on · best on desktop</p>
+      </div>
+      <p id="loader-note"></p>
+    </div>
+  </div>
+  <canvas id="brush" aria-hidden="true"></canvas>
+
+</body>
+</html>
